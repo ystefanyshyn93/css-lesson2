@@ -1,0 +1,36 @@
+header* {margin:0;}
+@import url (<link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">)
+:root {
+    font-family:niniti-sans
+}
+
+body { max-width:980;
+}
+header nav {
+    display:flex;
+    justify-content: space-between;
+    margin:15px;
+}
+header nav ul {
+    flex:1;
+    display:flex;
+    padding:0;
+}
+header nav ul li {
+    list-style-type:none;
+    margin:0 2%;
+}
+header nav ul li a {
+    text-decoration:none;
+    fony-size: 0.9rem;
+    line-height:1rem;
+}
+header nav li p {
+    font-size:0.9rem;
+    line-height:1rem;
+}
+header p.cart {
+    font-size:0.9rem;
+    line-height:1rem;
+    margin:1rem;
+}
